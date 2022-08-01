@@ -101,3 +101,25 @@ BoxV2 at: 0xf58c622406D94B361a76C3052C4af3936b135b1f
 
 
 # Upgrade the contract
+
+# 问题
+1.Rinkeby 上创建.gnosis-safe.io多签钱包不成功。
+2.OpenZeppelin 只在Ethereum，Rinkeby 有部署，Goerli上无部署
+3.ipfs上部署OpenZeppelin(upgrades-safe-app)
+https://github.com/OpenZeppelin/upgrades-safe-app
+  方式1：ipfs
+  方式2:其他gateway
+    https://cloudflare-ipfs.com/ipfs/QmQovvfYYMUXjZfNbysQDUEXR8nr55iJRwcYgJQGJR7KEA
+    https://gateway.pinata.cloud/ipfs
+
+涉及到的其他报错信息
+https://stackoverflow.com/questions/58384179/syntaxerror-cannot-use-import-statement-outside-a-module
+
+
+
+还是应该一次为参考
+https://github.com/OpenZeppelin/openzeppelin-upgrades
+
+
+control address
+0xA410899510ADf6EF5A6B3848eA0bc6e0b7E900a9
