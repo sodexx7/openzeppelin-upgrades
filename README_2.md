@@ -32,6 +32,3 @@ undefined
 
 
 `npx hardhat run --network Goerli scripts/upgrade_box.js`
-
-```
-

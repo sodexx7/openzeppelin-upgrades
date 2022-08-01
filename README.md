@@ -28,27 +28,10 @@ undefined
 #  Transfer control of upgrades to a Gnosis Safe
 
 使用个人地址用Gnosis Safe创建一个签名钱包。并将该钱包地址作为新的代理地址。
-0x68975f4CE69f14Ce6c2bE88FD1B082f8149536ca
 
 `npx hardhat run --network Goerli scripts/transfer_ownership.js`
 ```
-// scripts/transfer_ownership.js
-async function main() {
-  const gnosisSafe = '0x68975f4CE69f14Ce6c2bE88FD1B082f8149536ca';
- 
-  console.log("Transferring ownership of ProxyAdmin...");
-  // The owner of the ProxyAdmin can upgrade our contracts
-  await upgrades.admin.transferProxyAdminOwnership(gnosisSafe);
-  console.log("Transferred ownership of ProxyAdmin to:", gnosisSafe);
-}
- 
-main()
-  .then(() => process.exit(0))
-  .catch(error => {
-    console.error(error);
-    process.exit(1);
-  });
-```
+
 
 ```
 (node:6122) ExperimentalWarning: stream/web is an experimental feature. This feature could change at any time
@@ -121,5 +104,3 @@ https://stackoverflow.com/questions/58384179/syntaxerror-cannot-use-import-state
 https://github.com/OpenZeppelin/openzeppelin-upgrades
 
 
-control address
-0xA410899510ADf6EF5A6B3848eA0bc6e0b7E900a9

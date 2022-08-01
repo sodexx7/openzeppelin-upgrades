@@ -1,0 +1,60 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xa22E0e53A6bA0DD0821234BC0D0955ec9Da50fCd",
+    "txHash": "0xb28b9d30429244978fb631e4077ed63f07d26c1447b3c98cf6cd14a14b5b2b80"
+  },
+  "proxies": [
+    {
+      "address": "0x6CB88BC1B30FcEad717A69312e4672984c493dC3",
+      "txHash": "0x210955bc9c67c65a44a772e105b69e95ac72d7c74ade067cd145fc7cebcc9698",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "cba9f8cf52e3c449631a04ea218a6cedcaf7c366669cfc257c89a008266c768f": {
+      "address": "0x861EF06723d93d7e530f2B0Ef483d7268c3Ef420",
+      "txHash": "0x20408e2f38c6c61e2c12cce78552b0fdc8a4513c37ebb55a0dbf4c415060617e",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box_20220726",
+            "src": "contracts/Box_20220726.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "de02d0c25691fb3647977a644ad9ecc4f7c52f6cb33e891472aad37033e40ecc": {
+      "address": "0x7231d06CEA71167506eCa61693B352135c9c7C50",
+      "txHash": "0x8b68846a8d9e8ef16351fac470d08d495d5f627f0519b4b326d9cdf95917fa56",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box_20220726_V2",
+            "src": "contracts/Box_Box_20220726_V2.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
